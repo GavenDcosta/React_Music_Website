@@ -9,9 +9,9 @@ import homeData from './homeData'
 
 function Card(props){
   return(
-    <div className="Card">
+    <div className="Card homeCard">
       <Link to={props.url}>
-         <div className="card">
+         <div className="card homeCard">
            <img src={props.img} className="card-img-top" alt="..."/>
            <div className="card-body">
              <h2 className="card-text">{props.name}</h2>
